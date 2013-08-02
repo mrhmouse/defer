@@ -1,0 +1,32 @@
+{
+	"name" : "defer",
+	"version" : "1.0.0",
+	"description" : "Run long loops using callbacks to prevent hanging code warnings.",
+	"keywords" : [
+		"defer",
+		"loop",
+		"callback",
+		"hanging"
+	],
+	"license" : "MIT",
+	"author" : {
+		"name" : "Jordan Brown",
+		"email" : "mrhmouse@gmail.com"
+	},
+	"files" : [
+		"deferredEach.coffee",
+		"deferredEach.js",
+		"deferredEach.browserify.min.js"
+	],
+	"main" : "deferredEach.js",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/mrhmouse/defer.git"
+	},
+	"devDependencies" : {
+		"coffee-script" : ">=1.6",
+		"browserify" : ">=2.18",
+		"uglify-js2" : "*"
+	},
+	"private" : true
+}
