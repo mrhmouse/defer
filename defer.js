@@ -71,7 +71,7 @@
         return _results;
       })();
       return Defer.each(properties, function() {
-        return action.call(map[this], map[this]);
+        return action.call(map[this], this, map[this]);
       }, callback);
     }
   };

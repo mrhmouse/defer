@@ -37,7 +37,7 @@ Defer =
 	forEachOf: ( map, action, callback ) ->
 		properties = ( name for own name, value of map )
 		Defer.each properties, ->
-			action.call map[@], map[@]
+			action.call map[@], @, map[@]
 		, callback
 
 module.exports = Defer
