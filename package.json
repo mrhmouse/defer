@@ -14,11 +14,11 @@
 		"email" : "mrhmouse@gmail.com"
 	},
 	"files" : [
-		"deferredEach.coffee",
-		"deferredEach.js",
-		"deferredEach.browserify.min.js"
+		"defer.coffee",
+		"defer.js",
+		"defer.browserify.min.js"
 	],
-	"main" : "deferredEach.js",
+	"main" : "defer.js",
 	"repository" : {
 		"type" : "git",
 		"url" : "http://github.com/mrhmouse/defer.git"
